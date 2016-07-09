@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="statusBarColor" type="color">#be943c</item>
+    <item name="baseColor" type="color">#EEBA4C</item>
+    <item name="textBaseColor" type="color">#E3493B</item>
+    <item name="buttonTextColor" type="color">#3A3A3C</item>
+    <item name="buttonColor" type="color">#A9DDD9</item>
+    <item name="selectionListColor" type="color">#23B5AF</item>
+    <item name="navigationDrawer_divider" type="color">#2E2E2E</item>
+    <item name="navigationDrawer" type="color">#424242</item>
+    <item name="navigationDrawer_textColor" type="color">#000000</item>
+    <item name="splashScreenColor" type="color">#F1C76F</item>
+</resources>

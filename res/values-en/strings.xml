@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoTruck</string>
+    <string name="bienvenido">Welcome</string>
+    <string name="cargando">Loading...</string>
+    <string name="ajustesNecesarios">Required settings</string>
+    <!--Titulos del MainActivity-->
+    <string name="title_login">LogIn</string>
+    <string name="title_registro">Sign Up</string>
+    <!--Titulos de la zona de Acercca de-->
+    <string name="title_comoUsar">How to use GeoTruck</string>
+    <string name="title_informacion">About the application</string>
+    <string name="title_desarrollador">Developer info</string>
+    <!--Textos del diálogo de comprobación de wifi-->
+    <string name="dialog_title">Wi-Fi Settings</string>
+    <string name="dialog_message">Connection required for this application. Do you want to connect your Wi - Fi? .If there are no close connections , you must activate your mobile data</string>
+    <string name="dialog_possitiveButton">Yes</string>
+    <string name="dialog_negativeButton">No</string>
+    <string name="dialog_closeSession">Close?</string>
+    <string name="dialog_closeSessionTitle">Close session</string>
+    <string name="dialog_saveContact">Employee will be saved as a professional contact. Do you want to save it?</string>
+    <string name="dialog_saveContactTitle">Save Contact</string>
+    <string name="progressdialog_message">It takes too long...</string>
+    <string name="progressdialog_cancel">Cancel</string>
+    <string name="progressdialog_cargandoEmpresas">Loading business...</string>
+    <string name="progressdialog_cargandoEmpleados">Loading employees...</string>
+    <string name="progressdialog_iniciarSesion">Login in progress</string>
+    <string name="progressdialog_logout">Closing session</string>
+    <string name="progressdialog_registro">Registration in progress</string>
+    <string name="progressdialog_saveBusiness">Saving business...</string>
+    <string name="asyncTastk_cancelled">Something went wrong</string>
+    <!--Layout de fragment de logeo-->
+    <string name="button_entrar">Log in</string>
+    <string name="editText_usuario">User</string>
+    <string name="editText_password">Password</string>
+    <string name="checkBox_mantenerSesion">Stay logged</string>
+    <string name="checkBox_mostrarPassword">Show password</string>
+    <!--Layout de fragment de elección de tipo de usuario-->
+    <string name="textView_tipoUsuario">What kind of user are you?</string>
+    <string name="radioButton_jefe">Boss</string>
+    <string name="radioButton_conductor">Driver</string>
+    <string name="button_siguiente">Next</string>
+    <!--Layout de formulario de registro-->
+    <string name="toast_seleccione">Select an option</string>
+    <!--Layout del fragment de registro de conductor-->
+    <string name="textView_tituloFormulario">Registration Form</string>
+    <string name="editText_nombre">Name</string>
+    <string name="editText_apellidos">Surname</string>
+    <string name="editText_telefono">Phone number</string>
+    <string name="editText_user">Username</string>
+    <string name="editText_confirmarPassword">Confirm password</string>
+    <string name="editText_email">E-mail</string>
+    <string name="button_registrarse">Confirm</string>
+    <string name="toast_campoVacio">Review the form . There can\'t be any blank field</string>
+    <string name="toast_passwordCoinciden">Passwords must be equals</string>
+    <string name="toast_emailIncorrecto">Invalid E-mail</string>
+    <string name="toast_telefonoIncorrecto">Invalid phone number</string>
+    <string name="toast_tiempoAgotado">Something went wrong. Check your connection</string>
+    <string name="editText_busqueda">Search...</string>
+    <!--Layout del fragment de elección del tipo de empresa-->
+    <string name="textView_tituloTipoEmpresa">Select company type</string>
+    <string name="radioButton_nueva">New</string>
+    <string name="radioButton_existente">Existing</string>
+    <!--Layout del fragment de empresa existente-->
+    <string name="textView_seleccioneEmpresa">Select your company</string>
+    <!--Layout del fragment de empresa nueva-->
+    <string name="editText_nombreEmpresa">Company name</string>
+    <!--Layout login jefe-->
+    <string name="textView_usuariosConectados">Users online:</string>
+    <string name="menu_ajustes">Settings</string>
+    <string name="menu_acerca">About...</string>
+    <string name="menu_normal">View:Normal</string>
+    <string name="menu_hibrida">View:Hybrid</string>
+    <string name="menu_satelite">View:Satellite</string>
+    <string name="menu_terreno">Vista:Terrain</string>
+    <!--Adapter de empleados-->
+    <string name="textView_nombreUsuario">Username:</string>
+    <string name="textView_telefonoUsuario">Phone number:</string>
+    <!--Layout detalle empleado-->
+    <string name="textView_conductor">Driver:</string>
+    <string name="textView_telefonoConductor">Phone number:</string>
+    <string name="textView_empresaConductor">Company name:</string>
+    <string name="textView_emailConductor">E-mail:</string>
+    <!--Toast-->
+    <string name="toast_loginErroneo">Invalid username or password</string>
+    <!--Lista titulos navegacion-->
+    <string-array name="nav_options">
+        <item>Go to first screen</item>
+        <item>About us...</item>
+        <item>Close session</item>
+    </string-array>
+    <array name="navigation_icons">
+        <item>@drawable/ic_action_back</item>
+        <item>@drawable/ic_action_new</item>
+        <item>@drawable/ic_action_exit</item>
+    </array>
+    <string name="drawer_open">Menu</string>
+    <!--Detalle empleado-->
+    <string name="textView_agregar">Save contact</string>
+    <string name="textView_llamar">Call employee</string>
+    <string name="textView_correo">Send E-mail</string>
+    <string name="textView_ubicacion">Employee location</string>
+    <!--Zona del empleado-->
+    <string name="editText_calle">Street/Avenue</string>
+    <string name="editText_numeroCasa">Number/Floor</string>
+    <string name="editText_localidad">City</string>
+    <string name="button_Buscar">Start route</string>
+    <!--Dialogo de activacion de GPS-->
+    <string name="dialog_TituloGps">GPS Settings</string>
+    <string name="dialog_MensajeGps">Activate location?.If you say no, this application will no longer perform its function and will close</string>
+    <string name="dialog_selectEmailActivity">Send e-mail...</string>
+    <!--Toast aviso mapa-->
+    <string name="toast_Aviso">The map couldn\'t be loaded</string>
+    <string name="toast_error">Error</string>
+    <string name="toast_rutaVacia">You must specify at least one city</string>
+    <string name="toast_usuarioOPassword">Username or password missing</string>
+    <string name="toast_registroTerminado">Registration finished</string>
+    <string name="toast_registroFallido">Registration failed.Check your username and email, it may be that are registered.</string>
+    <string name="toast_cambioEmailFallido">Typed e-mail is already registered</string>
+    <string name="toast_cambioUsuarioFallido">Typed username is already registered</string>
+    <string name="toast_savedBusiness">Business successfully saved</string>
+    <string name="toast_wrongBusiness">Registration failed. This business may have been registered</string>
+    <string name="toast_escribaEmpresa">Write a business name</string>
+    <string name="toast_malPassword">Wrong password</string>
+    <string name="toast_vaciaPassword">Empty password</string>
+    <string name="toast_dialogoSalvaje">Wild dialog appeared.</string>
+    <string name="textView_wifi">Access to Wi-Fi</string>
+    <string name="textView_Localizacion">Access to GPS</string>
+    <string name="textView_ajustes">Necesary settings</string>
+    <!--Address Line-->
+    <string name="driver">Driver:</string>
+    <string name="location">Location:</string>
+    <string name="textView_noHayEmpleados">There\'s no employees online</string>
+    <string name="textView_noHayEmpresas">There\'s no business in the list</string>
+    <!--Acerca de:como usar la aplicacion-->
+    <string name="textView_primeraLinea">1.Do the registration as a driver or as a boss</string>
+    <string name="textView_segundaLinea">2.Log in</string>
+    <string name="textView_accionesTipo">Actions depending the type of current user:</string>
+    <string name="textView_eresJefe">-If you are a boss:</string>
+    <string name="textView_primeraLineaJefe">You have a list with connected employees of your company.\n\n
+        You can select the employee what you want and save his information (his phone number and his E-mail), call him, send him an E-mail or
+    see his location</string>
+    <string name="textView_eresEmpleado">-If you are an employee</string>
+    <string name="textView_primeraLineaEmpleado">You can define the route you want by specifying street, house number and location, or only with location
+        .\n\n
+       The application will open your phone GPS to tell you the right way to arrive to your destination.</string>
+    <!--Acerca de: Acerca de la aplicación-->
+    <string name="textView_infoAplicacion">GeoTruck it\'s a geolocation application developed with the objective of provide a not contemplated service to users, to know
+        where are they\'re employees, everywhere and eveytime.\n\n
+        Current application is in beta phase, which will be updated over time to implement more functionality.
+    </string>
+    <!--Acerca de: Información del desarrollador-->
+    <string name="textView_developerName">His name: Iván</string>
+    <string name="textView_developerAge">His age: 20 years old</string>
+    <string name="textView_developerContact">Contact:</string>
+    <string name="textView_developerTwitter">Twitter: @ivangonrin\n\t\t\t\tClick here to show his twitter profile.</string>
+    <string name="textView_developerEmail">E-mail: ivgorin@hotmail.com\n\t\t\t\tClick here to send him an e-mail.</string>
+    <!--Zona de ajustes-->
+    <string name="textView_infoUsuario">Modify user information</string>
+    <string name="textView_cambiarUsuario">Change username</string>
+    <string name="textView_usuarioActual">Current username:</string>
+    <string name="textView_cambiarPassword">Change password</string>
+    <string name="textView_passwordActual">Current password:</string>
+    <string name="textView_cambiarEmail">Change E-mail</string>
+    <string name="textView_emailActual">Current e-mail:</string>
+    <string name="textView_empresaActual">Company:</string>
+    <string name="textView_registrado">Registered since:</string>
+    <!--Fragment de confirmación de contraseña-->
+    <string name="textView_introduzcaPassword">Input your password</string>
+    <!--Fragment de cambio de nombre de usuario-->
+    <string name="editText_nuevoUsuario">Input new username</string>
+    <string name="button_confirmar">Confirm</string>
+    !--Fragment de cambio de contraseña-->
+    <string name="editText_nuevaPassword">Input new password</string>
+    <string name="editText_confirmarNuevaPassword">Confirm new password</string>
+    <!--Fragment de cambio de email-->
+    <string name="editText_nuevoEmail">Input new E-mail</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_formulario_jefe">FormularioJefeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_geo_truck">GeoTruck</string>
+    <string name="title_activity_main_user">MainUserActivity</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_current_employee_position">Employee Position</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about_us">About us</string>
+    <string name="activity_settings">Settings</string>
+    <string name="title_activity_registro">Registration</string>
+    <string name="title_activity_mainUser">Main</string>
+    <string name="title_activity_settings">Settings</string>
+</resources>
