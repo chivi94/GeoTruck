@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_nuevoMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/abc_action_bar_content_inset_material"
+        android:hint="@string/editText_nuevoEmail"
+        android:inputType="textEmailAddress|textCapSentences"/>
+
+    <Button
+        android:id="@+id/b_confirmarNuevoMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/abc_action_bar_content_inset_material"
+        android:background="@drawable/button_selector"
+        android:text="@string/button_confirmar"
+        android:textColor="@color/buttonTextColor" />
+
+</LinearLayout>

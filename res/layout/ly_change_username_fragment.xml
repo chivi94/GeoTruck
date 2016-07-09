@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_changeUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editText_nuevoUsuario"
+        android:inputType="textCapSentences"
+        android:layout_margin="@dimen/abc_action_bar_content_inset_material" />
+    <Button
+        android:id="@+id/b_confirmNewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_confirmar"
+        android:background="@drawable/button_selector"
+        android:textColor="@color/buttonTextColor"
+        android:layout_margin="@dimen/abc_action_bar_content_inset_material" />
+</LinearLayout>

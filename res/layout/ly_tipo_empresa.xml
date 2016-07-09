@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ly_business">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_titulo_registro_empresa"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/textView_tituloTipoEmpresa"
+            android:elegantTextHeight="false"
+            android:typeface="monospace"
+            android:gravity="center_horizontal"
+            android:layout_margin="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_tipo_empresa"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_tipos_empresas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/radioButton_nueva"
+                android:id="@+id/rb_empresa_nueva" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/radioButton_existente"
+                android:id="@+id/rb_empresa_existente" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.3">
+        <Button
+            android:id="@+id/b_siguiente_jefe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:textColor="@color/buttonTextColor"
+            android:text="@string/button_siguiente"/>
+    </LinearLayout>
+</LinearLayout>

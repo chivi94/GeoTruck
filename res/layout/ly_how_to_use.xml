@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_primeraLinea"
+                android:text="@string/textView_primeraLinea"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_segundaLinea"
+                android:text="@string/textView_segundaLinea"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_acciones"
+                android:text="@string/textView_accionesTipo"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_eresJefe"
+                android:text="@string/textView_eresJefe"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_jefePrimeraLinea"
+                android:text="@string/textView_primeraLineaJefe"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_eresEmpleado"
+                android:text="@string/textView_eresEmpleado"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_empleadoPrimeraLinea"
+                android:text="@string/textView_primeraLineaEmpleado"
+                android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:gravity="center"
+        android:text="@string/textView_tituloFormulario"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:typeface="monospace" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/abc_action_bar_content_inset_material"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+
+                <ListView
+                    android:id="@+id/lv_listaEmpresas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                    android:layout_marginRight="@dimen/abc_action_bar_content_inset_material"
+                    android:choiceMode="singleChoice" />
+
+
+                <EditText
+                    android:id="@+id/et_nombreTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_nombre"
+                    android:inputType="textCapSentences" />
+
+                <EditText
+                    android:id="@+id/et_telefonoTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_telefono"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/et_usuarioRegistroTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_user"
+                    android:inputType="textCapSentences" />
+
+                <EditText
+                    android:id="@+id/et_passwordTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_password"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/et_confirmarPasswordTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_confirmarPassword"
+                    android:inputType="textPassword" />
+
+                <EditText
+                    android:id="@+id/et_eMailTrabajador"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/editText_email"
+                    android:inputType="textEmailAddress" />
+
+                <Button
+                    android:id="@+id/b_confirmarRegistroTrabajador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="@dimen/abc_action_bar_content_inset_material"
+                    android:background="@drawable/button_selector"
+                    android:text="@string/button_registrarse"
+                    android:textColor="@color/buttonTextColor" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

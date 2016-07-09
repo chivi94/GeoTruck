@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_weight="0.2"
+        android:text="@string/textView_developerName"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+        android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+        android:layout_weight="0.2"
+        android:text="@string/textView_developerAge"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+            android:layout_weight="0.5"
+            android:text="@string/textView_developerContact"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:layout_weight="0.3"
+                android:text="@string/textView_developerTwitter" />
+
+            <ImageButton
+                android:id="@+id/button_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/abc_action_bar_content_inset_material"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_twitter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                android:layout_weight="0.3"
+                android:text="@string/textView_developerEmail" />
+
+            <ImageButton
+                android:id="@+id/button_developerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:background="@drawable/ic_action_new_email"
+                android:layout_margin="@dimen/abc_action_bar_content_inset_material" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
